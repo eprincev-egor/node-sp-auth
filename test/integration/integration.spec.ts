@@ -7,7 +7,7 @@ import 'mocha';
 
 import { IAuthOptions } from './../../src/auth/IAuthOptions';
 import * as spauth from './../../src/index';
-import { request as configuredRequest } from './../../src/config';
+import { request as configuredRequest } from '../../src/config';
 import { UrlHelper } from '../../src/utils/UrlHelper';
 
 interface ITestInfo {
@@ -17,7 +17,7 @@ interface ITestInfo {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const config: any = require('./config');
+const config: any = require('./config.sample');
 
 const tests: any[] = [
   {
