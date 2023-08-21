@@ -11,3 +11,11 @@ export function setup(config: IConfiguration): void {
     request = request.extend(config.requestOptions);
   }
 }
+
+// let request = {
+//   async post(url, {headers, body, resolveBodyOnly, form}) {
+//     return {
+//       json
+//     }
+//   }
+// }

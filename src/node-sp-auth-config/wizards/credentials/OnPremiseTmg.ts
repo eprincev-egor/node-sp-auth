@@ -1,5 +1,5 @@
 import { Question, prompt, PasswordQuestion } from 'inquirer';
-import { IOnpremiseTmgCredentials } from 'node-sp-auth';
+import { IOnpremiseTmgCredentials } from '../../../index';
 
 import { shouldSkipQuestionPromptMapper } from '../../utils/hooks';
 import { defaultPasswordMask } from '../../utils';

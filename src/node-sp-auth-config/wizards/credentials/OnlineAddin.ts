@@ -1,5 +1,5 @@
 import { Question, prompt, PasswordQuestion } from 'inquirer';
-import { IOnlineAddinCredentials } from 'node-sp-auth';
+import { IOnlineAddinCredentials } from '../../../index';
 
 import { shouldSkipQuestionPromptMapper } from '../../utils/hooks';
 import { defaultPasswordMask } from '../../utils';

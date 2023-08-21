@@ -1,5 +1,5 @@
 // Auth interfaces
-import { IAuthOptions } from 'node-sp-auth';
+import { IAuthOptions } from '../../';
 // Auth interfaces
 
 import { IHooks } from './wizard';

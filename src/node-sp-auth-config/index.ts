@@ -212,4 +212,4 @@ export class AuthConfig {
 }
 
 export { IAuthContext, IAuthConfigSettings } from './interfaces';
-export { IAuthOptions } from 'node-sp-auth';
+export { IAuthOptions } from '../index';

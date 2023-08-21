@@ -1,5 +1,5 @@
 {
-  "version": "3.0.7",
+  "version": "3.0.7-2",
   "name": "node-sp-auth-fork-without-global-agent",
   "author": "Sergei Sergeev <sergeev.srg@gmail.com> (https://github.com/s-KaiNet), Eprincev Egor",
   "description": "Unattended SharePoint http authentication with nodejs (also includes package https://github.com/koltyakov/node-sp-auth-config)",
@@ -89,7 +89,6 @@
     "lodash.template": "4.5.0",
     "mkdirp": "1.0.4",
     "node-ntlm-client": "0.1.2",
-    "node-sp-auth": "^3.0.7",
     "xmldoc": "1.1.2"
   }
 }
